@@ -30,3 +30,11 @@ git commit -m "Commit name"
 пишите название вашей ветки, оно отображается в вашем терминале в скобке (master), (main) или (что-то другое):
 
 git push origin master/main
+
+
+git branch     | Посмотреть список веток
+git branch name_branch     | Создать ветку с названием
+
+git restore . или же имя файла   | Откатвает изменения как cntr+z
+git reset  . или же имя файла    | Вытаскивает файлы их git add
+git reset --mixed HEAD~1         | Удаление последнего коммита
