@@ -14,4 +14,5 @@ class Money():
         return f"{self.amount} {self.currency}"
 
     def __add__(self, odj):
+        # Ман ин ҷо кодро каме тоза кардам, то хато набошад
         return Money(self.amount + odj.amount, self.currency)
